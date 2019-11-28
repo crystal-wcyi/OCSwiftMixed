@@ -10,10 +10,11 @@ import UIKit
  
 class TestClass: NSObject {
     @objc open var name = String()
-    override class func description() -> String {
+    
+    @objc open func study() {
+        print("\(name)")
         let person1 = Person.init()
         person1.fullName = "Jason"
         person1.work()
-        return "name"
     }
 }

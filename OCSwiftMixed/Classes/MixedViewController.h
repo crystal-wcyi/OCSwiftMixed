@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MixedViewController.h
 //  OCSwiftMixed
 //
 //  Created by apple on 2019/11/28.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MixedViewController : UIViewController
 
 
 @end
