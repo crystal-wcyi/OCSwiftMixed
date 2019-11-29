@@ -26,8 +26,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "wangchenyi" => "wangchenyi@jsj.com.cn" }
   spec.source       = { :git => "https://github.com/crystal-wcyi/OCSwiftMixed.git", :tag => "#{spec.version}" }
 
-  spec.platform     = :ios, '9.0'
-  spec.ios.deployment_target = '9.0'
+  spec.platform     = :ios, '10.0'
+  spec.ios.deployment_target = '10.0'
 
   spec.source_files  = "OCSwiftMixed/Classes/*.{h,m,swift}"
 
