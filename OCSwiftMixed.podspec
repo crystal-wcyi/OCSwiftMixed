@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/crystal-wcyi/OCSwiftMixed.git"
   spec.author             = { "wangchenyi" => "wangchenyi@jsj.com.cn" }
-  spec.source       = { :git => "https://github.com/crystal-wcyi/OCSwiftMixed.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/crystal-wcyi/OCSwiftMixed.git", :tag => spec.version }
 
   spec.platform     = :ios, '10.0'
   spec.ios.deployment_target = '10.0'
@@ -35,6 +35,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0'}
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "SpanKit"
+  spec.dependency "SpanKit", '~> 5.0.1'
 
 end
